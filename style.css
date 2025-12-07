@@ -68,3 +68,33 @@ body{
 .container button:hover{
     background: #017f44;
 }
+
+@media (max-width: 600px) {
+    .container {
+        margin: 8% auto;
+        width: 90%;
+    }
+    .container h1 {
+        font-size: 28px;  
+        text-align: center;
+    }
+    .container h1 span {
+        border-bottom: 3px solid #019f55;
+        padding-bottom: 4px;
+    }
+    .display {
+        flex-direction: row;
+        padding: 16px 14px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .display input {
+        font-size: 18px;
+    }
+    .container button {
+        width: 100%;       
+        font-size: 18px;
+        padding: 14px;
+        margin-top: 10px;
+    }
+}
